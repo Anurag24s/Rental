@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       <footer className={isHomePage ? 'homePage_footer otherPage_footer': "otherPage_footer"}>
         <div className="container">
-          <h4>LUXURY RENTALS</h4>
+          <h4>RENTALS</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum et
             minus voluptatibus corporis eligendi quasi iure nihil eum reiciendis
@@ -29,9 +29,9 @@ const Footer = () => {
         </div>
         <div className="container">
           <h4>Connect with us</h4>
-          <p>+00 000 000 00</p>
-          <p>zk@gmail.com</p>
-          <p>© All Rights Reserved By CodeWithZeeshu.</p>
+          <p>+0000000000</p>
+          <p>xyz@gmail.com</p>
+          <p>© All Rights Reserved</p>
         </div>
       </footer>
     </>
