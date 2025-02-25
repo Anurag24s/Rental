@@ -6,7 +6,7 @@ A modern and luxurious villa rental website built with **React & Vite**, featuri
 ---
 
 ## 🌐 Live Demo
-🔗 **[Live Demo Coming Soon]**
+🔗 **[[Live Demo](https://anurag24s.github.io/Rental/)]**
 
 ---
 
