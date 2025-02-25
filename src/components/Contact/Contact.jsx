@@ -1,5 +1,5 @@
 import React from "react";
-import { RiFacebookBoxLine } from "react-icons/ri";
+import { RiFacebookBoxLine, RiInstagramLine, RiLinkedinBoxLine } from 'react-icons/ri';
 import { Link } from "react-router-dom";
 const Contact = () => {
   return (
@@ -17,26 +17,26 @@ const Contact = () => {
               <h3>Let's connect</h3>
               <div>
                 <p>Phone</p>
-                <span>+001 1234 999</span>
+                <span>+00000000000</span>
               </div>
               <div>
                 <p>Email</p>
-                <span>zk@gmail.com</span>
+                <span>xyz@gmail.com</span>
               </div>
               <div>
                 <p>Address</p>
-                <span>House No.123 Sector A-1</span>
+                <span>House No.1 jaipur</span>
               </div>
               <ul>
-                <Link to={"/facebook"} target="_blank">
-                  <RiFacebookBoxLine />
-                </Link>
-                <Link to={"/facebook"} target="_blank">
-                  <RiFacebookBoxLine />
-                </Link>
-                <Link to={"/facebook"} target="_blank">
-                  <RiFacebookBoxLine />
-                </Link>
+              <Link to="/facebook" target="_blank">
+                <RiFacebookBoxLine />
+              </Link>
+              <Link to="/instagram" target="_blank">
+                <RiInstagramLine />
+              </Link>
+              <Link to="/linkedin" target="_blank">
+                <RiLinkedinBoxLine />
+              </Link>
               </ul>
           </div>
         </div>
